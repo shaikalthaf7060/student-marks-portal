@@ -37,16 +37,5 @@ A centralized web portal built as a **B.Tech Minor Project** for educational ins
 
 ---
 
-## 🛠️ Technology Stack
-
-| Layer | Technologies |
-|---|---|
-| **Backend** | PHP (Prepared Statements via `mysqli`, Session Management) |
-| **Database** | MySQL / MariaDB (`mid-marks`) |
-| **Frontend** | HTML5, CSS3, JavaScript (ES6+), jQuery, Bootstrap 5 |
-| **Typography & Icons** | Google Fonts (Poppins, Inter), Boxicons / FontAwesome |
-| **Server Compatibility** | Apache (XAMPP / WAMP / LAMP) or PHP Built-in Server |
-
----
 
 This project is open-source and available under the [MIT License](LICENSE).
