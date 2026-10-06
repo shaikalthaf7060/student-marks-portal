@@ -5,8 +5,25 @@
 ![Bootstrap](https://img.shields.io/badge/Bootstrap-5-7952B3?style=for-the-badge&logo=bootstrap&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-ES6%2B-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![License](https://img.shields.io/badge/License-MIT-green.svg?style=for-the-badge)
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Portal-success?style=for-the-badge&logo=googlechrome)](#-live-deployment--hosting)
 
 A centralized web portal built as a **B.Tech Minor Project** for educational institutions to streamline student record administration, automate mid-term examination grading, manage internal marks assessments, and generate printable academic evaluation reports.
+
+---
+
+## 🌐 Live Deployment & Hosting
+
+Because this application runs on **PHP** with a **MySQL** database, it cannot run on static-only hosts like GitHub Pages. Free hosting options:
+
+1. **[InfinityFree](https://www.infinityfree.com/) (Free Forever PHP + MySQL Hosting)**:
+   - Create a free account and choose a subdomain (e.g. `student-marks-portal.infinityfreeapp.com`).
+   - Import `database.sql` into the built-in **phpMyAdmin**.
+   - Upload your project files into `htdocs/`.
+   - Your live URL is ready instantly!
+
+2. **[Render](https://render.com/) / [Railway](https://railway.app/) (Cloud Container Hosting)**:
+   - Connect your GitHub repository `shaikalthaf7060/student-marks-portal`.
+   - Automatically builds and deploys using the included [`Dockerfile`](Dockerfile).
 
 ---
 
