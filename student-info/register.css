@@ -1,0 +1,116 @@
+/* Google Font Import */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    background: #f1f5f9;
+    font-family: 'Poppins', sans-serif;
+}
+
+.profile-container {
+    max-width: 900px;
+    width: 95%;
+    margin: 90px auto 40px;
+    border-radius: 10px;
+    padding: 30px;
+    background-color: #fff;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.08);
+}
+
+.profile-container header {
+    position: relative;
+    font-size: 22px;
+    font-weight: 600;
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.profile-container header::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    height: 3px;
+    width: 35px;
+    border-radius: 8px;
+    background-color: #2563eb;
+}
+
+.profile-container form {
+    margin-top: 15px;
+}
+
+.profile-container .title {
+    display: block;
+    margin-bottom: 12px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #334155;
+}
+
+.fields {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 16px;
+    margin-bottom: 15px;
+}
+
+.input-field {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-field label {
+    font-size: 13px;
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 6px;
+}
+
+.input-field input, .input-field select {
+    outline: none;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1e293b;
+    border-radius: 6px;
+    border: 1px solid #cbd5e1;
+    padding: 10px 14px;
+    transition: border 0.2s;
+}
+
+.input-field input:focus, .input-field select:focus {
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+.submit-btn-row {
+    margin-top: 25px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.sumbit-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 12px 30px;
+    border: none;
+    outline: none;
+    color: #fff;
+    border-radius: 6px;
+    background-color: #2563eb;
+    font-size: 15px;
+    font-weight: 600;
+    transition: background 0.2s;
+    cursor: pointer;
+}
+
+.sumbit-btn:hover {
+    background-color: #1d4ed8;
+}
