@@ -98,8 +98,8 @@ A centralized web portal built as a **B.Tech Minor Project** for educational ins
 
 ### 1. Clone or Download the Repository
 ```bash
-git clone https://github.com/shaikalthaf7060/online-examination-cell.git
-cd online-examination-cell
+git clone https://github.com/shaikalthaf7060/student-marks-portal.git
+cd student-marks-portal
 ```
 *(Or copy the folder into your web server's root directory: `htdocs/` for XAMPP or `www/` for WAMP).*
 
@@ -127,7 +127,7 @@ Adjust credentials if your MySQL server uses a custom password or port.
 ### 4. Launch the Application
 - Open your browser and navigate to:
   ```
-  http://localhost/online-examination-cell/login.php
+  http://localhost/student-marks-portal/login.php
   ```
   *(or `http://localhost/pw/login.php` depending on your directory name)*
 
